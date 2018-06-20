@@ -4,6 +4,7 @@ def create_olympics_hash
 end
 
 def add_a_key_value_pair
+  create_olympics_hash
   summer_olympics[:Atlanta]="1996"
 end
 puts summer_olympics
